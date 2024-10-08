@@ -48,6 +48,12 @@ html {
   background-color: #0099cc;
 }
 
+/*image*/
+img {
+  width: 100%;
+  height: auto;
+}
+
 /*Aside bar*/
 .aside {
   background-color: #33b5e5;
