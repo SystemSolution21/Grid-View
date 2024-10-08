@@ -1,2 +1,6 @@
 ### Ignore memo text
 window_onload_fetch_layout.txt
+
+### Ignore for Debug
+index-copy.html
+style-copy.css
