@@ -27,7 +27,7 @@ html {
   padding: 15px;
 }
 
-/*Menu unorder list*/
+/*Menu Unordered list*/
 .menu ul {
   list-style-type: none;
   margin: 0;
@@ -70,6 +70,46 @@ html {
 /*For mobile screen(browser window) setting Grid-View column width to 100%*/
 [class*="col-"] {
   width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /*Setting Grid-View 12 column width for Laptop screen(browser window) larger than 600px*/
+  .col-lt-1 {
+    width: 8.33%;
+  }
+  .col-lt-2 {
+    width: 16.66%;
+  }
+  .col-lt-3 {
+    width: 25%;
+  }
+  .col-lt-4 {
+    width: 33.33%;
+  }
+  .col-lt-5 {
+    width: 41.66%;
+  }
+  .col-lt-6 {
+    width: 50%;
+  }
+  .col-lt-7 {
+    width: 58.33%;
+  }
+  .col-lt-8 {
+    width: 66.66%;
+  }
+  .col-lt-9 {
+    width: 75%;
+  }
+  .col-lt-10 {
+    width: 83.33%;
+  }
+  .col-lt-11 {
+    width: 91.66%;
+  }
+  .col-lt-12 {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
